@@ -18,6 +18,9 @@ body {
 h1 {
     color: #a856f0;
 }
+.flex {
+    display: flex;
+}
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -44,14 +47,57 @@ header nav ul li {
    padding: 0 40px;
 }
 header .btn-contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 50px;
-    background-color: #a856f0;
-    color: #f0f0f5;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #ae7cf059;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color:#f0f0f5;
+    
 }
 header .btn-contato button:hover {
     box-shadow: 0px 0px 8px #f0f0f562;
+    width: 100%;
+}
+/* Estilo do topo do site */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h2 {
+    color: #f0f0f5;
+    font-size:60px;
+    font-weight: normal;   
+}
+.topo-do-site h1, h3 {
+    color: #f0f0f5;
+    font-size: 40px;
+    font-weight: lighter;
+        
+}
+.topo-do-site .txt-topo-site h1 span {
+    color: #a856f0;
+}
+.btn-linkedin button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #ae7cf059;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color:#f0f0f5;
+    width: 100%;
+    
+}
+.btn-linkedin button:hover {
+    box-shadow: 0px 0px 8px #f0f0f58a;
+    letter-spacing: 0.5px;
+    
 }
