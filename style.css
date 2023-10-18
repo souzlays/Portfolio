@@ -73,8 +73,8 @@ section.topo-do-site {
 }
 section.topo-do-site .flex {
     align-items: center;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-between;
+    /* gap: 90px; */
 }
 .topo-do-site h2 {
     color: #f0f0f5;
@@ -89,22 +89,23 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site h1 span {
     color: #a856f0;
 }
-.btn-linkedin button {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background: #ae7cf059;
-    font-size: 1rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;   
+    border: none;
+    font-size: 30px;
+    display: inline;
+    background-color: #a856f077;
+    margin: 15px 8px;
     cursor: pointer;
-    color:#f0f0f5;
-    width: 100%;
-    
+    color: #f0f0f5;
+    transition: .2s;
 }
-.btn-linkedin button:hover {
-    box-shadow: 0px 0px 8px #f0f0f58a;
-    letter-spacing: 0.5px;
-    
+.btn-social button:hover {
+    box-shadow: 0px 0px 8px #f0f0f5;
+    transform: scale(1.05);
 }
 .img-topo-site {
     max-width: 100%;
@@ -135,11 +136,13 @@ section.sobre-mim {
 }
 .sobre-mim .txt-sobre {
     color: #f0f0f5;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 section.sobre-mim .flex {
     text-align: center;
     align-items: center;
-    padding: 70px;
+    
 }
 .sobre-mim .txt-sobre h2 {
     font-size: 35px;
@@ -161,16 +164,22 @@ section.projetos .flex {
     gap: 60px;
     
 }
+
 .projetos .projetos-box {
     color: #f0f0f5;
     padding: 50px;
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
+    flex: 1;
 }
 .projetos .projetos-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #f0f0f554;
+}
+.projetos .projetos-box {
+    letter-spacing: 2px
+
 }
 .projetos .projetos-box i {
     font-size: 70px;
@@ -179,4 +188,19 @@ section.projetos .flex {
 .projetos .projetos-box h3 {
     font-size: 30px;
     margin: 15px 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a856f0;
+    width: 100%;
+    height: 100%;
+    padding:50px;
+    
+    
+}
+.icons i {
+    font-size: 100px;
+    
 }
