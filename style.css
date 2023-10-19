@@ -41,7 +41,7 @@ header a {
     text-decoration: none;
     display: inline-block;
     font-weight: 500;
-    font-size: larger;
+    font-size: 25px;
     transition: .2s;
 }
 header a:hover {
@@ -148,6 +148,7 @@ section.sobre-mim .flex {
     font-size: 35px;
     font-weight: normal;
     margin-bottom: 20px;
+    padding: 50px;
 }
 .sobre-mim .txt-sobre p {
     font-size: 25px;
@@ -157,14 +158,13 @@ section.sobre-mim .flex {
 
 /*estilo dos projetos */
 section.projetos {
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.projetos .flex {
     gap: 60px;
     
 }
-
 .projetos .projetos-box {
     color: #f0f0f5;
     padding: 50px;
@@ -189,18 +189,50 @@ section.projetos .flex {
     font-size: 30px;
     margin: 15px 0;
 }
+/*estilo habilidades */
+
+section.Habilidades {
+    padding: 80px 4%;
+}
+section.Habilidades .flex {
+    gap: 60px;
+    
+}
 .icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: #a856f0;
     width: 100%;
     height: 100%;
-    padding:50px;
-    
-    
-}
-.icons i {
+    padding:100px;
     font-size: 100px;
-    
+}
+
+/*estilo formulario de contato*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+}
+
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    box-shadow:#a856f0 0px 50px 100px -20px, #a856f0 0px 30px 60px -30px;
+    gap: 60px;
+}
+section h3 {
+    color: #f0f0f5;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    margin: 2rem;
 }
