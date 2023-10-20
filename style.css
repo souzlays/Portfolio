@@ -21,7 +21,7 @@ h1 {
 .flex {
     display: flex;
 }
-h2.titulo {
+.titulo {
     color: #f0f0f5;
     font-size: 40px;
     text-align: center;
@@ -52,21 +52,7 @@ header nav ul li {
    display: inline-block;
    padding: 0 40px;
 }
-header .btn-contato button {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background: #ae7cf059;
-    font-size: 1rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    color:#f0f0f5;
-    
-}
-header .btn-contato button:hover {
-    box-shadow: 0px 0px 8px #f0f0f562;
-    width: 100%;
-}
+
 /* Estilo do topo do site */
 section.topo-do-site {
     padding: 40px 4%;
@@ -103,7 +89,7 @@ section.topo-do-site .flex {
     color: #f0f0f5;
     transition: .2s;
 }
-.btn-social button:hover {
+.btn-social button:hover, form .btn-enviar:hover {
     box-shadow: 0px 0px 8px #f0f0f5;
     transform: scale(1.05);
 }
@@ -211,28 +197,42 @@ section.Habilidades .flex {
 
 /*estilo formulario de contato*/
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin: auto;
-}
+section.formuladio {
+    padding: 80px 4%;
 
-footer section{
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 45px;
-    width: 500px;
-    box-shadow:#a856f0 0px 50px 100px -20px, #a856f0 0px 30px 60px -30px;
-    gap: 60px;
+    gap: 5px;
+    
 }
-section h3 {
-    color: #f0f0f5;
-    font-size: 40px;
+form input, form textarea, form button{
+    width: 500px;
+    background-color: #f0f0f53d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 10px;
+    color:#0a010c;
+    font-size: 20px;
+    
+}
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+button.btn-enviar {
+    margin-top: 10px;
+    width: 120px;
+    cursor: pointer;
+    background-color: #a856f0;
     text-align: center;
-    font-weight: normal;
-    margin: 2rem;
+    font-weight: bolder;
+    transition: .2s;
+    
+    
 }
