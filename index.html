@@ -13,15 +13,16 @@
     <header>
         <div class="interface">
             <div class="logo">
-                <h1>LS</h1>
+                <img src="Imagens/LS logo_Prancheta 1 .png" alt="">
             </div><!--logo-->
         
         <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre Mim</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#Inicio">Início</a></li>
+                    <li><a href="#sobreMim">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
         </nav>  
     </header>
@@ -30,13 +31,13 @@
         <section class="topo-do-site">
             <div class="interface">
                 <div class="flex">
-                    <div class="txt-topo-site">
+                    <div class="txt-topo-site" id="Inicio" >
                         <h1>Hello, <span>World</span>!</h1>
                         <h2>Lays Souza</h2>
                         <h3>Desenvolvedora Front-End</h3>
                         <div class="btn-social">
-                           <a href=""><button><i class="bi bi-linkedin"></i></button></a>
-                           <a href=""><button><i class="bi bi-github"></i></button></a>
+                           <a href="https://www.linkedin.com/in/lays-souza-52901a131/"><button><i class="bi bi-linkedin"></i></button></a>
+                           <a href="https://github.com/souzlays"><button><i class="bi bi-github"></i></button></a>
                         </div>
                     </div> <!--txt-topo-site-->
                     <div class="img-topo-site">
@@ -46,7 +47,7 @@
             </div><!--Interface-->
         </section><!--topo-do-site-->
 
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobreMim">
             <div class="interface">
                 <div class="flex">
                 <div class="txt-sobre">
@@ -61,7 +62,7 @@
             </div><!--Interface-->
         </section><!--sobre-mim-->
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <div class="interface">
                 <h2 class="titulo">Projetos</h2>
                 <div class="flex">
@@ -78,7 +79,7 @@
              </div>
         </section>
 
-        <section class="Habilidades">
+        <section class="Habilidades" id="habilidades">
             <div class="interface">
                 <h2 class="titulo">Habilidades</h2>
                 <div class="flex">
@@ -100,11 +101,11 @@
         
             <section class="formulario">
                 <div class="interface">
-                    <h3 class="titulo">Contato</h3>
+                    <h3 class="titulo" id="contato">Contato</h3>
                     <div class="flex">
                         <form action="https://api.staticforms.xyz/submit" method="post">
                             <input type="text" name="name" id="nome" placeholder="Digite Seu Nome">
-                            <input type="email" name="name" id="email" placeholder="Digite Seu Nome">
+                            <input type="email" name="name" id="email" placeholder="Digite Seu Email">
                             <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
                             <button class="btn-enviar" type="submit">Enviar</button>
                             <input type="hidden" name="redirectTo" value="a7c081bc-d6b6-4950-ace5-359c14bd045a">

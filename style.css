@@ -7,9 +7,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
-    background-color:#1a0d19;    
+    background-color:#1a0d19;   
+    
 }
 .interface {
     max-width: 1280px;
@@ -61,7 +63,7 @@ section.topo-do-site {
 section.topo-do-site .flex {
     align-items: center;
     justify-content: space-between;
-    /* gap: 90px; */
+    
 }
 .topo-do-site h2 {
     color: #f0f0f5;
