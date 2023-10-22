@@ -9,7 +9,7 @@
     font-family: 'Dosis', sans-serif;
 }
 body {
-    background-color:#110214f6;    
+    background-color:#1a0d19;    
 }
 .interface {
     max-width: 1280px;
@@ -26,7 +26,7 @@ h1 {
     font-size: 40px;
     text-align: center;
     font-weight: normal;
-    
+    padding: 40px;
 }
 /* ESTILO DO CABEÇALHO */
 header {
@@ -223,6 +223,7 @@ form input, form textarea, form button{
     border-radius: 10px;
     color:#f0f0f5;
     font-size: 20px;
+    margin: auto;
     
 }
 form textarea {
