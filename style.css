@@ -243,3 +243,15 @@ button.btn-enviar {
     
     
 }
+/* Estilo do footer */
+.footer  {
+    width: 100%;
+    background-color:#2713306c;
+}
+footer {
+    color: #f0f0f59f;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+    
+}
