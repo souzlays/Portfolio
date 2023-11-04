@@ -65,18 +65,16 @@ section.topo-do-site .flex {
     justify-content: space-between;
     
 }
-.topo-do-site h2 {
-    color: #f0f0f5;
-    font-weight: normal;  
-    font-size: 60px;
-}
-.topo-do-site h1, .topo-do-site h3 {
+
+.topo-do-site h1 {
     color: #f0f0f5;
     font-weight: lighter;
     font-size: 50px;       
 }
-.topo-do-site .txt-topo-site h1 span {
+.topo-do-site span h1{
     color: #a856f0;
+    font-weight: normal;  
+    font-size: 60px;
 }
 
 .btn-social button {
@@ -255,3 +253,39 @@ footer {
     text-align: center;
     
 }
+
+@media screen and (max-width: 900px) {
+    /*classes gerais */
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    /*nav */
+    .menu-desktop {
+        display: none;
+    }
+
+    /*topo do site */
+  
+    .topo-do-site h1 {
+        font-size: 35px;
+    
+    }
+
+    .topo-do-site span h1 {
+        font-size: 35px;
+    }
+
+    /* icons*/
+
+    .icons {
+        font-size: 90px;
+        flex-direction: row;
+        display: block;
+    }
+
+    section {
+        padding: 20px 8%;
+    }
+}
+
